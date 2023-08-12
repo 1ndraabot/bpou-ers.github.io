@@ -23,7 +23,7 @@ const SignUp = ()=> {
 
                         <div className="flex flex-col gap-[30px] items-center">
                             <button className="w-52 py-3 text-abu-gelap font-medium text-[28px] bg-kuning border-0 rounded-full"> Sign Up </button>
-                            <p className="text-putih text-xl font-light">Have an Account? <a href="#" className="text-kuning ">Login</a></p>
+                            <p className="text-putih text-xl font-light">Have an Account? <a href="/Login" onClick={()=> {'/Login'}} className="text-kuning ">Login</a></p>
                         </div>
 
                         <p className="text-putih text-center">or</p>

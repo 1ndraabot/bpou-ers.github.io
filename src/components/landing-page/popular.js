@@ -5,15 +5,15 @@ const popularTop = ()=> {
     return(
         
         <div>
-            <div className="container mt-[208px] mx-[90px] ">
-                <div className='grid grid-cols-12 gap-x-5'>
-                    <div className='col-span-4  flex flex-col gap-9 '>
+            <div className="container mt-96 mx-[90px] max-sm:mt-[550px] max-sm:mx-[14px] max-sm:w-auto">
+                <div className='grid grid-cols-12 gap-x-5 max-sm:grid-cols-2 max-sm:gap-14'>
+                    <div className='col-span-4  flex flex-col gap-9'>
                         <h1 className='text-2xl font-semibold text-putih text-center'>Most Popular Book</h1>
                         <div className='flex flex-col gap-4 divide-y-2 divide-bor-color bg-abu-mateng border-0 rounded-[10px]'>
                             <div className='pt-[10px] pl-[7px] flex items-center gap-[30px]'>
                                 <img src="asset/dunia-yang-disembunyikan.svg" alt="Sejarah Dunia yang Disembunyikan" />
-                                <div className='flex flex-col gap-[14px]'>
-                                    <div className='flex flex-col gap-1'>
+                                <div className='flex flex-col gap-[14px] max-sm:gap-0'>
+                                    <div className='flex flex-col gap-1 max-sm:gap-[2px]'>
                                         <h1 className='text-putih text-base font-semibold'>Sejarah Dunia yang Disembunyikan</h1>
                                         <p className='text-putih text-[10px]'>Jonathan Black/2015</p>
                                     </div>
